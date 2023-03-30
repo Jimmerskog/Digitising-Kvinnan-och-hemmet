@@ -20,28 +20,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>A post-it with a simple example phrase on it</p>
+            <p>Kvinnan och hemmet, September 1930</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="Swe">Svenska</language>
          </langUsage>
-         <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout
-               Dillen.</handNote>
-         </handNotes>
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="KH01">
          <figure>
-            <label>Post-It 01</label>
-            <figDesc> A photograph of a post-it with a simple example phrase. </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <label>Front</label>
+            <figDesc> The front page of Kvinnan och Hemmet September 1930 </figDesc>
+            <graphic url="assets/img/documents/20230120112718_001.png"/>
          </figure>
       </surface>
+      <surface xml:id="KH02">
+         <figure>
+            <label>Second page</label>
+            <figDesc>Fru Majas lycka</figDesc>
+            <graphic url="assets/img/documents/20230120112718_002.png"/>
+         </figure>
+      </surface>
+      
    </facsimile>
    <text>
 
@@ -63,7 +66,8 @@
       </front>
 
       <body>
-         <pb n="2"/>
+         <pb n="1" facs="#KH01" />
+         <pb n="2" facs="#KH02"/>
          <div1 type="article" xml:id="a2.1" next="a2.2">
             <head>FRU MAJAS LYCKA</head>
             <byline>Berättelse af H. Courths-Mahler.</byline>
@@ -146,14 +150,14 @@
                Co., Cedar Rapids, Iowa. N. Fr. Hansen Publishing Co.
                Cedar Rapids, Iowa.
                
-               N. Fr. Hansen, Presg't.
-               W. A. Hansen, affärsföreståndare.
-               E. R. Hansen, asst. AETAretörert are.
+               <name type="person">N. Fr. Hansen,</name> Presg't.
+               <name type="person">W. A. Hansen,</name> affärsföreståndare.
+               <name type="person">E. R. Hansen,</name> asst. affärsföreståndare.
                
-               Ida Hansen, redaktör.
-               Ida W. Howard-Manville, Medredaktör
+               <name type="person">Ida Hansen,</name> redaktör.
+               <name type="person">Ida W. Howard-Manville,</name> Medredaktör
                Medarbetare:
-               Lilly Erickson. Esther Glccard.
+               <name type="person">Lilly Erickson.</name> <name type="person">Esther Glccard.</name>
                
                PRENUMERATIONSPRIS: |
                I Förenta Staterna:
@@ -190,13 +194,13 @@
                
                Mrs. IDA HANSEN, s
                Kvinnan och Hemmet, Cedar Rapids, lowa. </ab>
-            <ab> Dr. N. L. Hansen, EMERSON ,Nebraska. </ab>
+            <ab> <name type="org">Dr. N. L. Hansen, EMERSON</name> ,Nebraska. </ab>
             <ab> Hårkedjor och lösflätor kan göras af Edert eget hår. Sänd 4 cents i frimärken för
-               profve r och priser. Mrs. H. E. MÖRK, 725 Cedar Ave. South, Minneapolis, Minn. </ab>
+               profve r och priser. <name type="org">Mrs. H. E. MÖRK</name>, 725 Cedar Ave. South, Minneapolis, Minn. </ab>
             <ab> SILKE RESTER, största paket-, som ännu erbjudits. Bästa silke, Lifliga färger.
                Stycken af god storlek, Tillfredsställelse garanteras. . Stort profpaket 25
                cents. 1 
-               1/2 pound ask, full vikt, 7 5 cents, portofritt. JOSEPH DOYLE &amp; CO., NEW
+               1/2 pound ask, full vikt, 7 5 cents, portofritt. <name type="org">JOSEPH DOYLE &amp; CO.,</name> NEW
                ARK, NEW JERSEY. </ab>
             <ab> Canada Frimärken kunna vi icke mottaga som betalning för någonting. Våra·
                prenumeranter i Canada torde förstå, · att detta lands frimärken ej äro användbara
@@ -231,9 +235,9 @@
             <ab> 
                Att väta i bädden och brist på kontroll af urin för ung och
                gammal FÖRSVUNNEN. Upplysningar FRITT.
-               Zemeto Co., Dept. 55, Box 1642, Milwaukee, Wis. </ab>
+               <name type="org">Zemeto Co.,</name> Dept. 55, Box 1642, Milwaukee, Wis. </ab>
             <ab> KODAKFILM och 6 fotografier framkallade 25c. Kopior 3 cents stycket. Arbetet
-               garanterat. Geo. Skrudland, 4118 Overhill Ave., Chicago, 111 </ab>
+               garanterat. <name type="org">Geo. Skrudland</name>, 4118 Overhill Ave., Chicago, 111 </ab>
             <ab> Berest svenska, van vid korrekturläsning, öfversättning, samt
                REDAKTIONSARBETE
              önskar plats.
@@ -328,36 +332,37 @@
          </div1>
          <div1 type="ad" xml:id="a4.3">
 
-            <ab>Sökes, erbjudes. till salu, efterfråg-· ningar och andra små annonser, intagas i
+            <ab>Sökes, erbjudes. till salu, efterfråg- ningar och andra små annonser, intagas i
                Kvinnan och Hemmet för 3 cents pr. ord för hvarde gån1t, namn och . adress
                inberäknat. - Ingen annons intages för mindre än 50 cents. Beloppet måste medfölja
                beställningen. När bref adresseras till oss för utsändning, blir det 10 cents mera. .
                Ohs.]. Annonser, skrifna på engelska språket, öfversättes fritt och exemplar af
                tidskriften med annonsen sändes fritt.</ab>
             <ab>Läs den berömda boken Thurcby Prästgård. 300 sidor, samt författarinnans porträtt
-               och lefnadsteckning. Pris $1.00. Adress: Lina Lindblad, North Platte, Nebraska, ·
+               och lefnadsteckning. Pris $1.00. Adress: <name type="person">Lina Lindblad,</name> North Platte, Nebraska, ·
                -</ab>
             <ab>Änkeman, 58 år, med eget hem, önskar inleda bekantskap med en respektabel dam (40 a
-               50 års ålder). Svar med fotografi till A. P. Br., 215 Cottage St., Bridgeport, Conn.
-               önskas blifva bekant genom brefväxling med en rar svensk kvinna i ålder mellan 35-
+               50 års ålder). Svar med fotografi till <name type="person">A. P. Br.,</name> 215 Cottage St., Bridgeport, Conn.</ab>
+               
+               <ab>önskas blifva bekant genom brefväxling med en rar svensk kvinna i ålder mellan 35-
                ·45. Svar till: Ensam, No. 2, in care of Kvinnan och Hemmet, Cedar Rapids, Iowa.</ab>
             <ab>Ensam, svensk änka önskar genom brefväxling göra bekantskap med en respektabel
                gentleman. Svar, märkt Treflig 45, in care of Kvinnan och Hemmet, Cedar Rapids,
                Iowa.</ab>
             <ab> Engelska läres framgångsrikt -genom korrespondance, sedan 14 år. Lätt, fort metod.
-               öfven-askande resultat. 25 cents för hvarje lektion. Skrif efter upplysningar. Miss
-               Blanche. Fisher, Dept, 16, 1264 Lexington Ave., New York City.</ab>
+               öfven-askande resultat. 25 cents för hvarje lektion. Skrif efter upplysningar. <name type="person">Miss
+               Blanche. Fisher,</name> Dept, 16, 1264 Lexington Ave., New York City.</ab>
             <ab>Plågas icke mer af dålig mage, där äkta Linfröextrakt af Ostersundsmagasinets i
                Stockholm välkända tillverkning finnes. Detta medel botar magsjukdomar såsom magsyra,
                makkatarz, magsår, dålig matsmältning, trög afföring och därmed följande svindel,
                mattighet, tryckande känsla i maggropen sveda i bröstet, sömnlöshet m. m.
-               Tu,komme;,deras på det bästa af hrr. läkare. Pris pr. paket $1.20. Mrs. J. Halvorson,
+               Tu,komme;,deras på det bästa af hrr. läkare. Pris pr. paket $1.20. <name type="person">Mrs. J. Halvorson</name>,
                1431 Adams St. N.-E, 14, Minneapolls, Minn. - Levereras tullfritt till Canada.</ab>
-            <ab>Vasa Orden of America. 51-0DIN, Port Cllester, N. Y., 1.-3, Fredagen hvarje månad I
-               Swedlsh Hall Odln Inc. Wlllet ss«, Port Caester, N. Y. Prot. Sekr, l\frs. Anna
-               Petersen, Box 53, Coscob, Conn. 14/l-FL0RA, Jamestown, N: Y., 1.-2. Fredagen hvarle
-               månad 1 Svenska Brödra Förbundets Hall. Maln St, Sekr. Mrs. Ellla Caxlaon, 46
-               H&amp;zeltlne .il.ve,</ab>
+            <ab><name type="org">Vasa Orden of America.</name> 51-0DIN, Port Chester, N. Y., 1.-3, Fredagen hvarje månad I
+               Swedish Hall Odin Inc. Willet ave, Port Caester, N. Y. Prot. Sekr. <name type="person">Anna
+               Petersen</name>, Box 53, Coscob, Conn. 143-FL0RA, Jamestown, N.Y., 1.-2. Fredagen hvarje
+               månad i Svenska Brödra Förbundets Hall. Main St, Sekr. <name type="person">Mrs. Elsa Carlson,</name> 46
+               Hazeltine ave,</ab>
             <ab>Merry Maid klädhängare. Detta är en ny uppfinning, den har 5 hvita emaljerade armar,
                som kunna vikas tillbaka mot vä11:gen, när ikke i bruk. Den har dubbel häng;plats,
                och det är öfverraskande hur mycket tyg, som kan få plats på den, Det är just hvad ni
@@ -5767,13 +5772,13 @@
             kommenderar den hjärtligt till
             alla kvinnor, som äro svaga
             
-            och kraftlösa. — Mrs. Chester
-            Decker, R, R. 1, Wheatland,
+            och kraftlösa. — <name type="person">Mrs. Chester
+            Decker,</name> R, R. 1, Wheatland,
             Indiana.
             
             Lydia F Pinkham's
             Vegetable Compound
-            Lydia E. Pinkham Med. Co., Lynn, Mass.</ab>
+            <name type="org">Lydia E. Pinkham Med. Co.,</name> Lynn, Mass.</ab>
          </div1>
          <pb n="39"/>
          <div1 type="article" xml:id="a39.1" prev="a38.2" next="a39.2">
@@ -6003,7 +6008,7 @@
                DROTTNINGHOLM..........  20. Sept.
                GRIPSHOLM................ 4. 0kt.
                KUNGSHOLM................. 11, 0kt.
-               Swedish American Line. 181 N. Michigan Ave.. Chicago, III.</ab>
+               <name type="org">Swedish American Line.</name> 181 N. Michigan Ave.. Chicago, III.</ab>
          </div1>
          <pb n="40"/>
          <div1 type="article" xml:id="a40.1">
@@ -6720,9 +6725,9 @@
          <div1 type="article" xml:id="a42.3" >
             <head>Prisbelönt recept.</head>
             <p>En af våra gamla prenumeranter,
-            Mrs. N. M. Hornum; 1140 C. Ave.
-            W., Cedar Rapids, Iowa, tilldelades |
-            "första pris för nedanstående 
+            <name type="person">Mrs. N. M. Hornum;</name> 1140 C. Ave.
+            W., Cedar Rapids, Iowa, tilldelades
+            första pris för nedanstående 
             
             märkta relish-recept i en pristäflan,
             utlyst-af stadens lokala tidning, och
@@ -6757,8 +6762,8 @@
                   tet.  Skrif idag efter FRITT: profpaket.
                   -Kostar eder intet. Tusende har funnit pile lindring genom
                    Page metoden. :- Sänd efter fritt proof.
-                   E. R. PAGE CO.,
-                   221 C. Page Bldir,,   Marshall, Mich.
+                  <name type="org"> E. R. PAGE CO.,</name>
+                   221 C. Page Bldir,,   <name type="person">Marshall, Mich.</name>
             </ab>
            
             <ab>Döfhet är Elende. Massor af personer med bristande
@@ -6773,7 +6778,7 @@
                Skrif efter broschyr
                och bevittnade uppgifter af uppfinnaren som själf var döf.
                
-               A 0. Leonard, Inc., Suite 670, 70 5th Ave.; New York.</ab>
+               <name type="org">A 0. Leonard, Inc., </name>Suite 670, 70 5th Ave.; New York.</ab>
            
                
                <ab>
@@ -7025,7 +7030,7 @@
             
             För att erhålla denna rådfrågning fritt, angående
             missljud i hufvudet, fyll i kopongen och sänd till
-            EAR SPECIALIST SPROULE,
+            <name type="org">EAR SPECIALIST SPROULE,</name>
             
             3 Cornhill Building, Boston, Mass.</ab>
             
@@ -7052,7 +7057,7 @@
                åkomma :må vara, försök Degnen's Radio-
                Active Solar Pad på vär egen risk. Skrif
                idag efter försöks och bruksanvisning. —
-               Radium Appliance Co., 1052 Bradbury Bldg.,
+              <name type="org"> Radium Appliance Co.,</name> 1052 Bradbury Bldg.,
                Los Angeles, California.</ab>
             <ab>
             Grått hår 
@@ -7062,13 +7067,13 @@
             stryka pä. Samma flaska. för alla. färger. Orsakar
             ej ränder. Ingen kommer att veta, att ni använder
             det. Tusen loforda det. Fri broschyr och garante
-            rat försöks erbjudande nu. RAY LABORATORIES,
+            rat försöks erbjudande nu. <name type="org">RAY LABORATORIES,</name>
             648 N. Michlgan Avo., Dept. 2760, Chicago.</ab>
               
              <ab> CANCER My SPECIALTY  - W r ite
               for Free Illustrated Book
-              "H" Dr. Williams Sani-
-               torium, Minneapolis, Minn.</ab>
+              "H" <name type="person">Dr. Williams Sani-
+               torium,</name> Minneapolis, Minn.</ab>
              <ab> Sänd oss en ny prenumerant.</ab>
          </div1>
          <pb n="44"/>
@@ -7793,7 +7798,7 @@
             råd på alla sätt; äfven sina många kära berättelser.
             Hjärtliga hälsningar till Fru Hansen
             och alla medarbetare. Med högaktning,
-            Fru 'Ester Gustafson, Hessleholm, Sverige</p>
+            Fru '<name type="person">Ester Gustafson,</name> Hessleholm, Sverige</p>
             <p>På samma gång som jag sänder "mln prenumeration
             för ett annat år, vill jag tacka för
             'den ·goda tid'ningen som är så intressanta berättelser
@@ -7801,7 +7806,7 @@
             !!'lada när tidningen kommer så vi vilja inte
             vana den förutan. önskar Eder god fram-
             ·gång. ·vänligen '
-            · Mrs. P. Carlson, Moose Lake, Minn.</p>
+            · <name type="person">Mrs. P. Carlson,</name> Moose Lake, Minn.</p>
             <p>Ett ·hjärtligt tack för tidningen. Jag har nu
             läst den i 20 år, och vill läsa Kvinnan och
             Hemmet. den återstående delen af mitt lif om 
@@ -7809,8 +7814,8 @@
             hjärtlig · hälsning till Eder först och främst,
             och sedan till hela' er stora arbetskrets, må
             Gud välsigna Eder alla.
-            Mrs. John Carlson, R.ockford, 111.</p>
-            <p>I och med* detsamma* som .jag s*ä nder in en
+               <name type="person">Mrs. John Carlson,</name> R.ockford, 111.</p>
+            <p>I och med detsamma som .jag sänder in en
             dollar för min tidning samt en ny prerrumerant,
             vill jag tacka för den kära tidningen
             som kommar så regelbundet hvarie månad,
@@ -7818,7 +7823,7 @@
             istället. Varen nu hälsade hela läsekretsen
             af Kvinnan och Hemmet ifrån en gammal
             jän1tländska, som är 80 år.
-            Anna Westman, Herridon, Kansas.</p>
+               <name type="person">Anna Westman,</name> Herridon, Kansas.</p>
             <p>På samma* gång so*m jag sän* der in min
             förnyelse för tidningen Kvinnan och Hemmet,
             kan jag inte uraktlåta att tacka medarbetare
@@ -7827,7 +7832,7 @@
             till den, har läst tidningen i öfver trettio år,
             jag blir 78 år nu i Augusti, men läser den
             ännu med stort nöje, Högaktningsfullt
-            Mrs. Sofia Farlandcr, Glendale, Calif.</p>
+               <name type="person">Mrs. Sofia Farlander,</name> Glendale, Calif.</p>
             <p>Kära Mrs. Ida Hansen.
             ·-Får på det hjärtligaste tacka för den goda
             tidningen som jag får hvar.ie månad, vill ej
@@ -7837,7 +7842,7 @@
             hvarje månad, så jag sänder nu $1.00 för
             ett· annat år med många kära hälsningar till
             M-rs,. Ida Hansen och dess läsekrets.
-            · Mrs. Wissen, Austin, Texas.</p>
+            · <name type="person">Mrs. Wissen,</name> Austin, Texas.</p>
             <p>Mrs. Ida Hansen och med;,_rbetare.
             Kära vänner I Får tacka så hjärtligt· för
             tidningen som kommer så regelbundet, samt
@@ -7852,7 +7857,7 @@
             dollar för ett dussin quilt blocks och 3 holders
             på· oblekt musslin, tillsammans 3 dollars och
             20 cents. .Vänllgen
-            Mrs. Peter Malmquist, Paxton, Ncbr,</p>
+               <name type="person"> Mrs. Peter Malmquist,</name> Paxton, Ncbr,</p>
             <p> Ärade väninna Mrs. Ida Hansen.
             På samma gång som jag förnyar min prenumaration
             på tidningen, viLI jag tillägga:
@@ -7867,7 +7872,7 @@
             och önskan om, att det ännu blifver
             många välsignelsebringande år i Ert rika lif.
             Tecknar med aktning och vänskap
-            Amanda · Beckdahl, Brudenton, Fia.</p> 
+               <name type="person">Amanda Beckdahl,</name> Brudenton, Fia.</p> 
             <p>Bästa Mrs. Hansen. 
             Jag , vill skrifva och tacka så mycket på
             aarnrna gång som jag sänder in pengar för
@@ -7888,7 +7893,7 @@
             mycket om den. Många kära hälsningar och
             välönskningar sändes till er för framgång I
             edert arbete. Från mig och mina flickor.
-            Mrs. Emma Flood, Cnltrary, Can,</p>
+               <name type="person">Mrs. Emma Flood,</name> Calgary, Can,</p>
            
             
          </div1>
@@ -7904,7 +7909,7 @@
                ej har tidningen förut, Kära hälsningar till
                alla dem som bidraga' till att - göra - tidningen
                så intressant.
-               Mrs. Lovisa Karlson, Chicago. 111.</p>
+               <name type="person">Mrs. Lovisa Karlson,</name> Chicago. 111.</p>
          </div1>
          <div1 type="ad" xml:id="a47.3">
             
@@ -7985,7 +7990,7 @@
             
             
             <ab>SÄND DENNA NU.
-            Albert Mills, Pres., American Products Co.,
+            <name type="org">Albert Mills, Pres., American Products Co.,</name>
             6072 Monmouth Ave., Cincinnati, Ohio.
             Sänd mig utan kostnad eller förpliktelse 
             alla fakta angående edert nya förslag som erbjuder specerier i parti och tillfälle att förtjäna $15
@@ -8025,7 +8030,7 @@
             
             Behåll Edra pengar hemma. Sänd kupongen idag.
             
-            Dr. S. J. Ritholz, Rm. -C--12, Station C. Å
+            <name type="person">Dr. S. J. Ritholz,</name> Rm. -C--12, Station C. Å
             
             CHICAGO, ILL. 
             
@@ -9007,9 +9012,9 @@
             <div1 type="ad" xml:id="a52.3" next="a52.4">
          
         <head> Svårt eksem under många år.</head> 
-             <ab>  St. Louis, Mo.
+             <ab>  <name type="org">St. Louis, Mo.
          
-         Dr. Peter Fahrney &amp; Sons,
+         Dr. Peter Fahrney &amp; Sons,</name>
          
          Chicago.
          
@@ -9035,7 +9040,7 @@
          förespråkare för edert läke-
          medel.
          Eder uppriktige vän,
-         Joseph Urban.</ab>
+                <name type="person">Joseph Urban.</name></ab>
             </div1>
                <div1 type="ad" xml:id="a52.4" prev="a52.3" next="a52.5">
          
@@ -9057,7 +9062,7 @@
          <ab>jag att åderbråcket blev mindre; nu är det knappt märkbart och be-
          svärar mig ej alls; jag sover gott hela natten. Där äro flera andra
          fall här i grannskapet vid vilka Kuriko åstadkommit förvånande re-
-         sultat. Jag förbliver eder vän,  Julius Roesner.</ab>
+         sultat. Jag förbliver eder vän,  <name type="person">Julius Roesner.</name></ab>
          
          </div1>
          <div1 type="ad" xml:id="a52.6" prev="a52.5" next="a52.7">
@@ -9075,7 +9080,7 @@
          ste medicinen för mänskligheten och har den alltid i mitt hem. Den
          skyndsamhet, varmed ni betjänar kunderna, förtjänar allt erkännande.
          
-         Högaktningsfullt, — Pastor H. F. Ahrens.</ab>
+         Högaktningsfullt, — <name type="person">Pastor H. F. Ahrens.</name></ab>
          </div1>
          <div1 type="ad" xml:id="a52.7" prev="a52.6" next="a52.8">
             <head>Frisk och kry vid 71 års ålder.</head>
@@ -9085,7 +9090,7 @@
          ställande resultat under mer än trettio års tid. Jag är nu i mitt 7lsta
          år, fortfarande frisk och kry samt tillskriver delvis användningen av
          eder medicin min goda hälsa. ÖR
-         Högaktningsfullt, L. B. Harrison.</ab>
+         Högaktningsfullt, <name type="person">L. B. Harrison.</name></ab>
          
          </div1>
          <div1 type="ad" xml:id="a52.8" prev="a52.7" >
@@ -9106,14 +9111,14 @@
          Med förhoppning att eder medicin må bringa lindring till många
          lidande, förbliver jag
          
-         Högaktningsfullt, Katharine Maurer.</ab>
+         Högaktningsfullt, <name type="person">Katharine Maurer.</name></ab>
          
             <ab> Tusenden har intygat de hälsobringande egenskaperna hos Dr. Peters Kuriko. Varför ödelägga ert liv och utstå plågor, då lindring är inom
                räckhåll? Ett försök skall övertyga er om denna gammaldags örtmedicins förtjänster. Kan ej erhållas på apoteken; endast speciella agenter till-
                
                handahålla den. För vidare upplysningar tillskriv;
                
-               Dr. Fetter Fahrney &amp; Sons Co., 2501 Washington Blvd., Chicago, 111. Levereras tullfritt i Kanada.</ab>
+               <name type="org">Dr. Peter Fahrney &amp; Sons Co.</name>, 2501 Washington Blvd., Chicago, 111. Levereras tullfritt i Kanada.</ab>
          </div1>
       
       </body>
